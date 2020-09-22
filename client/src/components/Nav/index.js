@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
@@ -14,14 +14,14 @@ const index = () => {
             <Router>
                 <Container className="p-0" fluid={true}>
                     <Navbar className='border-bottom' bg='dark' variant='dark' expand='lg'>
-                        <Navbar.Brand href="/home">Chadder</Navbar.Brand>
+                        <Navbar.Brand href="/">Chadder</Navbar.Brand>
 
                         <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
                         <Navbar.Collapse id='navbar-toggle'>
                             <Nav className='ml-auto'>
-                                <Link className='nav-link' to='/home'>Home</Link>
-                                <Link className='nav-link' to='/about'>About</Link>
-                                <Link className='nav-link' to='/contact'>Contact</Link>
+                                <Nav.Link href='/'>Home</Nav.Link>
+                                <Nav.Link href='/About'>About</Nav.Link>
+                                <Nav.Link href='/Contact'>Contact</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
 
