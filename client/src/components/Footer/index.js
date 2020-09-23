@@ -1,41 +1,31 @@
 import React from 'react'
+import "./assets/style.css";
 
-import Nav from 'react-bootstrap/Nav'
-import Button from 'react-bootstrap/Button'
-import Dropdown from 'react-bootstrap/Dropdown'
-
-const index = () => {
+function Footer() {
     return (
-        <div>
-            <Nav className="justify-content-center" activeKey="/home">
-                <Nav.Item>
-                    <Button variant="outline-warning" href='/'>Home</Button>
-                </Nav.Item>
-                <Nav.Item>
-                    <Button variant="outline-warning" href='/about'>About us</Button>
-                </Nav.Item>
-                <Nav.Item>
-                    <Button variant="outline-warning" href='/contact'>Contact</Button>
-                </Nav.Item>
-                <Nav.Item>
-                    <Button variant="outline-warning">Download</Button>
-                </Nav.Item>
-                <Nav.Item>
-                    <Dropdown>
-                        <Dropdown.Toggle variant='warning' id='dropdown'>
-                            Follow us
-                        </Dropdown.Toggle>
-                        <Dropdown.Menu>
-                            <Dropdown.Item href="http://www.facebook.com">Facebook</Dropdown.Item>
-                            <Dropdown.Item href="http://www.instagram.com">Instagram</Dropdown.Item>
-                            <Dropdown.Item href="http://www.twitter.com">Facebook</Dropdown.Item>
-                            <Dropdown.Item href="http://www.youtube.com">YouTube</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown>
-                </Nav.Item>
-            </Nav>
-        </div>
+        <footer id='footer'>
+            <div className='footer-top'>
+                <div className='container'>
+                    <div className='row'>
+
+                        <div className='col-lg-12 col-md-1 footer-contact text-center'>
+                            <h3>Chadder</h3>
+                            <p>
+                                Oakland, CA 94607 <br />
+                                United States <br />
+                                <strong>Email: </strong> contact@chadder.com <br />
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className='container py-4'>
+                        <div className='copyright justify-content-center'>
+                            &copy; Copyright <strong><span>Chadder</span></strong>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     )
 }
-
-export default index
+export default Footer
