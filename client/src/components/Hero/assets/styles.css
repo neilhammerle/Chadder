@@ -19,6 +19,24 @@
     font-size: 24px;
 }
 
+#zipform {
+    border: none;
+    padding: 18px 10px;
+    height: 30px;
+    margin-top: 30px;
+    background: #ffc154;
+    color: #24292e;
+}
+
+#zipsubmit{
+    margin-left: 25px; 
+    border: none;
+    padding: 6px 20px;
+    text-decoration: none;
+    background: #ffc154;
+    color: #24292e;
+    cursor: pointer;
+}
 .earth {
     height: 300px;
     width: 350px;
