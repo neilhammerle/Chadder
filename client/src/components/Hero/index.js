@@ -1,25 +1,37 @@
-import React from 'react'
+import React from 'react';
+import './assets/styles.css';
 
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
+import Earth from "../../Assets/Images/earth.png"
 
 const index = () => {
     return (
-        <div>
-            <Jumbotron fluid>
-                <Container>
-                    <h1>Speak annoymously</h1>
-                    <p>
-                        Chadder lets you see what is going on around your local area.
-                        </p>
-                    <p>
-                        Or you could see what is going on in certain places!
-                        </p>
-
-                </Container>
-            </Jumbotron>
-        </div>
-    )
+        <section id="hero">
+            <div className="container">
+                <div className="row justify-content-between">
+                    <div clasName="col-lg-3 pt-5 pt-lg-0 d-flex">
+                        <h1 className="text-left">Speak to the world
+            <br />
+                            annoymously. </h1>
+                        <h2>
+                            See what's going on in your area
+              <br />
+                            even if you might not be there!
+            </h2>
+                        <a href="/about" className="badge-pill btn-get-started  scrollto">
+                            Learn More
+            </a>
+                    </div>
+                    <div className=" align-items-right justify-content-right rounded-circle hero-img">
+                        <img
+                            src={Earth}
+                            className="img-fluid animated earth"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
 }
 
 export default index

@@ -1,14 +1,14 @@
 #footer {
-    background: #ffc154;
-    padding: 0 0 30px 0;
+    background: #f7f7f7;
+    padding: 0 0 10px 0;
     color: #24292e;
     font-size: 14px;
-    background: #ffc154;
+    background: #f7f7f7;
 }
 
 #footer .foot-newsletter {
     padding: 50px 0;
-    background: #ffc154;
+    background: #f7f7f7;
     text-align: center;
     font-size: 15px;
 }
@@ -18,12 +18,12 @@ h3 {
 }
 
 #footer .footer-top {
-    padding: 10px 0 30px 0;
-    background: #ffc154;
+    padding: 100px 0 50px 0;
+    background: #f7f7f7;
 }
 
 #footer .footer-top .footer-contact {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #footer .footer-top .footer-contact h4 {
@@ -43,7 +43,7 @@ h3 {
 }
 
 #footer .copyright {
-    margin-top: 20px;
+    margin-top: -10px;
     text-align: center;
     font-family: "'Nunito'", sans-serif;
     height: 25px;
