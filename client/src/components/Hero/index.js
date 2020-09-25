@@ -9,17 +9,20 @@ const index = () => {
             <div className="container">
                 <div className="row justify-content-between">
                     <div clasName="col-lg-3 pt-5 pt-lg-0 d-flex">
-                        <h1 className="text-left">Speak to the world
+                        <h1 className="text-left">See what's going on
             <br />
                             annoymously. </h1>
                         <h2>
-                            See what's going on in your area
+                            Get live feed from anywhere,
               <br />
                             even if you might not be there!
             </h2>
-                        <a href="/about" className="badge-pill btn-get-started  scrollto">
-                            Learn More
-            </a>
+                        <form>
+                            <label>
+                                <input type='text' placeholder="Enter Zip Code!" name='zipcode' />
+                            </label>
+                            <input type="submit" value='Submit' />
+                        </form>
                     </div>
                     <div className=" align-items-right justify-content-right rounded-circle hero-img">
                         <img
@@ -30,7 +33,7 @@ const index = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
 

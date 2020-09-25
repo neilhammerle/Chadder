@@ -13,7 +13,7 @@ const index = () => {
         <div>
             <Router>
                 <Container className="p-0" fluid={true}>
-                    <Navbar className='border-bottom' bg='warning' variant='warning' expand='sm'>
+                    <Navbar className='border-bottom' bg='warning' variant='warning' expand='lg'>
                         <Navbar.Brand href="/">Chadder</Navbar.Brand>
                         <Navbar.Collapse className='justify-content-center'>
                             <Form inline>
