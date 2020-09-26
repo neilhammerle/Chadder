@@ -1,0 +1,18 @@
+#navbar {
+    color: #ffc154;
+    height: 50px;
+}
+
+#navbartabs {
+    color: #000f3d;
+    margin-left: 125px;
+    font-weight: 350;
+    text-decoration: none;
+    line-height: 22px;
+    font-size: 14px;
+    letter-spacing: .05px;
+}
+
+#navbartabs:hover {
+    border-bottom: 1px solid #f7f7f7;
+}

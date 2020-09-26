@@ -28,6 +28,10 @@
     color: #24292e;
 }
 
+::placeholder {
+    color: #24292e;
+}
+
 #zipsubmit{
     margin-left: 25px; 
     border: none;
