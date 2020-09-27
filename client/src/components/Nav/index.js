@@ -20,9 +20,7 @@ const index = () => {
                                 <Nav.Link id='navbartabs' href="/about">About</Nav.Link>
                                 <Nav.Link id='navbartabs' href="/contact">Contact</Nav.Link>
                                 <Nav.Link id='navbartabs' href="/signin">Sign In</Nav.Link>
-                                <Nav.Link id='navbartabs' href="/register">
-                                    Sign Up
-      </Nav.Link>
+                                <Nav.Link id='navbartabs' href="/register">Sign Up </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>

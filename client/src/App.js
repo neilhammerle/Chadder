@@ -6,6 +6,8 @@ import Navbar from './components/Nav'
 
 import Home from './pages/Home'
 import About from './pages/About'
+import Signin from './pages/Signin'
+import Register from './pages/Register'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 
@@ -18,7 +20,8 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
-
+          <Route exact path='/signin' component={Signin} />
+          <Route exact path='/register' component={Register} />
         </Switch>
 
         <Footer />
