@@ -1,6 +1,6 @@
 #footer {
     background: #f7f7f7;
-    padding: 0 0 10px 0;
+    padding: 100px;
     color: #24292e;
     font-size: 14px;
     background: #f7f7f7;
@@ -19,6 +19,7 @@ h3 {
 
 #footer .footer-top {
     padding: 100px 0 50px 0;
+    height: 300;
     background: #f7f7f7;
 }
 
