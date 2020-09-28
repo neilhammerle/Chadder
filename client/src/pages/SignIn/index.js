@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import './assets/styles.css';
 
 export default class SignIn extends Component {
     render() {
         return (
             <form>
-                <h3>Sign In</h3>
+                <h3 id='toptext'>Sign In</h3>
 
                 <div className="form-group">
                     <label>Email address</label>
@@ -16,8 +17,8 @@ export default class SignIn extends Component {
                     <input type="password" className="form-control" placeholder="Enter password" />
                 </div>
 
-                <button type="submit" className="btn btn-warning btn-block">Sign In</button>
-                <p className="forgot-password text-right">
+                <button id='submit' type="submit" className="btn btn-dark btn-block">Sign In</button>
+                <p id='fp' className="forgot-password text-right">
                     Don't have a account, no worries! <a href="/register">Sign Up!</a>
                 </p>
             </form>

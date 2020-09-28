@@ -6,8 +6,8 @@ import Navbar from './components/Nav'
 
 import Home from './pages/Home'
 import About from './pages/About'
-import Signin from './pages/Signin'
-import Register from './pages/Register'
+import Signin from './pages/SignIn/'
+import Register from './pages/Register/'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 

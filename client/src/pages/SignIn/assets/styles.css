@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f7f7f7;
+    min-height: 100vh;
+    display: flex;
+}
+
+#toptext {
+    padding: 5px;
+    border: 20px;
+    margin-top: 43px;
+    margin-left: 450px;
+}
+
+.form-group {
+    padding: 4px;
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+
+.form-control {
+    padding: 14px 16px;
+    width: 330px;
+    margin-top: 13px;
+    margin-left: 50px;
+}
+
+#submit {
+    padding: 10px;
+    width: 340px;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+#fp {
+    padding: 20px;
+    border: 100px;
+    margin-right: 250px;
+}
+
+#fp a {
+    color: #24292e;
+}
