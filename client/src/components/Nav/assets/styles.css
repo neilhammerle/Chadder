@@ -1,6 +1,7 @@
 #navbar {
     color: #ffc154;
     height: 50px;
+    margin-left: 60px;
 }
 
 #navbartabs {
@@ -11,6 +12,11 @@
     line-height: 22px;
     font-size: 14px;
     letter-spacing: .05px;
+}
+
+#navbarhome {
+    color: #000f3d;
+    margin-left: 10px;
 }
 
 #navbartabs:hover {

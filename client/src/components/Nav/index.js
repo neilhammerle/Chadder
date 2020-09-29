@@ -13,7 +13,7 @@ const index = () => {
             <Router>
                 <Container className="p-0" fluid={true}>
                     <Navbar id='navbar' collapseOnSelect expand="lg" bg="warning" variant="warning">
-                        <Navbar.Brand id='navbartabs' href="/">Chadder</Navbar.Brand>
+                        <Navbar.Brand id='navbarhome' href="/">Chadder</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
