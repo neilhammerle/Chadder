@@ -1,0 +1,23 @@
+#toptextr {
+    padding: 5px;
+    border: 20px;
+    margin-top: 35px;
+    margin-left: 400px;
+}
+
+#submitr {
+    padding: 10px;
+    width: 380px;
+    margin-top: 40px;
+    margin-left: 332px;
+}
+
+#fpr {
+    padding: 20px;
+    border: 100px;
+    margin-right: 193px;
+}
+
+#fpr a {
+    color: #ffc154;
+}
