@@ -43,9 +43,8 @@ h3 {
     color: #24292e
 }
 
-#footer .copyright {
-    margin-top: -10px;
-    text-align: center;
-    font-family: "'Nunito'", sans-serif;
-    height: 25px;
+#crnb {
+    width: 1058px; 
+    height: 50px;
+    margin-left: -120px;
 }

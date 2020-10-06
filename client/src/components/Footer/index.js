@@ -1,6 +1,8 @@
 import React from 'react'
 import "./assets/style.css";
 
+import Navbar from 'react-bootstrap/Navbar';
+
 function Footer() {
     return (
         <footer id='footer'>
@@ -18,11 +20,9 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div className='container py-4'>
-                        <div className='copyright justify-content-center'>
-                            &copy; Copyright <strong><span>Chadder</span></strong>.
-                        </div>
-                    </div>
+                    <Navbar id='crnb' bg="warning">
+                        <Navbar.Brand>&copy; Chadder</Navbar.Brand>
+                    </Navbar>
                 </div>
             </div>
         </footer>
